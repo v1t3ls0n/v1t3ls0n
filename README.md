@@ -7,10 +7,10 @@ I enjoy working on projects that blend **cutting-edge research** with practical 
 ---
 
 ## 🌟 Areas of Interest:
-Artificial Intelligence: Machine learning, neural networks, and search algorithms.
-Computational Biology: Genetic algorithms, cellular automata, and their real-world applications in biological systems.
-Theoretical Computer Science: Algorithm design, automata theory, and emergent computational paradigms.
-Full-Stack Development: Building scalable, interactive, and user-friendly web applications.
+- **Artificial Intelligence**: Machine learning, neural networks, and search algorithms.  
+- **Computational Biology**: Genetic algorithms, cellular automata, and their real-world applications in biological systems.  
+- **Theoretical Computer Science**: Algorithm design, automata theory, and emergent computational paradigms.  
+- **Full-Stack Development**: Building scalable, interactive, and user-friendly web applications.
 
 ---
 
