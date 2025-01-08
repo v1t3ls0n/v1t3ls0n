@@ -16,14 +16,14 @@ I enjoy working on projects that blend **cutting-edge research** with practical 
 
 ## 📂 Featured Projects:
 
-1. **[Genetic Algorithm - Methuselah Patterns](https://github.com/v1t3ls0n/GeneticAlgorithm-MethuselahPatterns)**  
+**[Genetic Algorithm - Methuselah Patterns](https://github.com/v1t3ls0n/GeneticAlgorithm-MethuselahPatterns)**  
    A genetic algorithm implementation designed to discover Methuselah patterns in Conway's Game of Life. Methuselah patterns are small initial configurations that evolve for many generations before stabilizing, offering unique insights into emergent behavior and complex systems.  
    **Highlights**:  
    - Explored evolutionary approaches to optimize and analyze pattern behavior.  
    - Integrated visualization tools to study dynamic evolution in real-time.  
    **Keywords**: Genetic Algorithm, Conway's Game of Life, Methuselah Patterns, Computational Biology.
 
-2. **[Cellular Automaton](https://github.com/v1t3ls0n/Cellular-Automaton)**  
+**[Cellular Automaton](https://github.com/v1t3ls0n/Cellular-Automaton)**  
    A simulation of cellular automata developed as part of the Biological Computation course. This project explores emergent behaviors in systems and their applications, such as modeling environmental processes and analyzing dynamic systems.  
    **Highlights**:  
    - Designed custom automata rules for advanced simulations.  
@@ -31,7 +31,7 @@ I enjoy working on projects that blend **cutting-edge research** with practical 
    - Investigated environmental and climate-based models through computational experiments.  
    **Keywords**: Cellular Automaton, Climate Simulation, Computational Biology.
 
-3. **[Assembler](https://github.com/v1t3ls0n/assembler)**  
+**[Assembler](https://github.com/v1t3ls0n/assembler)**  
    A custom assembler written in C as part of the Systems Programming Lab course at the Open University of Israel. The assembler translates assembly language instructions into machine code for a simulated processor, supporting directives, macros, and diverse addressing modes.  
    **Highlights**:  
    - Implemented instruction parsing and error handling for assembly programs.  
@@ -39,21 +39,21 @@ I enjoy working on projects that blend **cutting-edge research** with practical 
    - Demonstrated low-level programming expertise and a deep understanding of systems programming.  
    **Keywords**: Assembler, C Programming, Systems Programming, Low-Level Programming.
 
-4. **[Tempe Weather SPA](https://github.com/v1t3ls0n/tempe-weather-spa)**  
+**[Tempe Weather SPA](https://github.com/v1t3ls0n/tempe-weather-spa)**  
    A single-page weather forecast application designed with modern web technologies. The app integrates React.js for the frontend, Node.js for the backend, and MongoDB for data storage, leveraging the WeatherAPI for real-time and accurate weather data.  
    **Highlights**:  
    - Developed a responsive UI with React and REST API integration.  
    - Full-stack implementation showcasing robust backend and frontend interaction.  
    **Keywords**: SPA, Node.js, React.js, MongoDB, Weather Forecast API.
 
-5. **[OpenU Grades Avg Calc Chrome Extension](https://github.com/v1t3ls0n/Openu_Grades_Avg_Calc_Chrome_Browser_Extension)**  
+**[OpenU Grades Avg Calc Chrome Extension](https://github.com/v1t3ls0n/Openu_Grades_Avg_Calc_Chrome_Browser_Extension)**  
    A Chrome extension created for Open University students to calculate their GPA and plan future grades using various methods.  
    **Highlights**:  
    - Provided a user-friendly interface for practical academic assistance.  
    - Designed to streamline student grade calculations and progress tracking.  
    **Keywords**: Chrome Extension, Academic Tools, GPA Calculator.
 
-6. **[MayPortfolio](https://github.com/v1t3ls0n/mayportfolio)**  
+**[MayPortfolio](https://github.com/v1t3ls0n/mayportfolio)**  
    A responsive portfolio website built for May Vitelson, showcasing her UX/UI design with elegant and functional frontend implementation.  
    **Highlights**:  
    - Collaboration-focused project with UX/UI and development integration.  
