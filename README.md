@@ -1,8 +1,9 @@
 # Hi there 👋, I'm Guy Vitelson
 
-I'm a **final-year Computer Science student** at the Open University of Israel and a **Full-Stack Developer** passionate about exploring **AI**, **computational biology**, and **theoretical computer science**. My journey into computer science stems from a lifelong curiosity about programming, which I transitioned into full-time after a successful career in post-production.
+I'm a Full-Stack Developer and independent researcher passionate about exploring **AI**, **computational biology**, and **theoretical computer science**. My journey into computer science stems from a lifelong curiosity about programming, which I transitioned into full-time after a successful career in post-production.
 
-I enjoy working on projects that blend **cutting-edge research** with practical software engineering, and I am eager to collaborate, learn, and grow in diverse fields.
+I enjoy working on projects that blend **cutting-edge research** with **practical software engineering**, and I’m eager to collaborate, learn, and contribute to impactful interdisciplinary work.
+
 
 ---
 
