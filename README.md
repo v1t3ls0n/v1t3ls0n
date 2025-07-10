@@ -24,7 +24,7 @@ I enjoy working on projects that blend **cutting-edge research** with **practica
       - Integrated visualization tools to study dynamic evolution in real-time.  
       **Keywords**: Genetic Algorithm, Conway's Game of Life, Methuselah Patterns, Computational Biology.
 
-   - **[Cellular Automaton](https://github.com/v1t3ls0n/Cellular-Automaton)**  
+   - **[3D Cellular Automaton (Climate System Simulation)](https://github.com/v1t3ls0n/3D-Cellular-Automaton-Climate-Simulation)**  
       A simulation of cellular automata developed as part of the Biological Computation course. This project explores emergent behaviors in systems and their applications, such as modeling environmental and climate-based models.  
       **Highlights**:  
       - Designed custom automata rules for advanced simulations.  
