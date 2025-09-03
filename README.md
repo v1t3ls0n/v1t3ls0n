@@ -41,6 +41,19 @@ I enjoy working on projects that blend **cutting-edge research** with **practica
       - Demonstrated encoding and decoding processes.  
       **Keywords**: DNA Fountain, Data Storage, Computational Biology.
 
+
+### 📊 Data Science & Machine Learning
+   - **[Search By Ingredients 2.0](https://github.com/argmaxml/search_by_ingredients)**  
+      A multi-diet, portion-aware recipe search & transformation system. Evolved from Argmax’s challenge into a full product: real-time analysis, scoring, and conversion for Keto, Vegan, or both, with dynamic substitutions and an interactive UI.  
+      **Highlights**:  
+      - Portion-aware classification with practical compliance thresholds (e.g., `#keto:0.8`).  
+      - Multi-diet logic, real-time scoring, and visual diet badges.  
+      - One-click recipe conversion via dynamic substitution engine.  
+      - Ingredient-level analysis UI and saved variations with unique ID management.  
+      - API & CLI for search, batch conversion, and export.  
+      **Keywords**: Diet Classification, Recipe Transformation, Portion-Aware Analysis, Multi-Diet Logic, Data Science, Machine Learning, API/CLI, UI.
+
+        
 ### 🖥️ Low-Level Programming
    - **[Assembler](https://github.com/v1t3ls0n/assembler)**  
       A custom assembler written in C as part of the Systems Programming Lab course at the Open University of Israel. The assembler translates assembly language instructions into machine code for a specific architecture.  
@@ -72,16 +85,6 @@ I enjoy working on projects that blend **cutting-edge research** with **practica
       - Frontend development optimized for user experience and responsiveness.  
       **Keywords**: Portfolio Website, Frontend Development, Collaboration.
 
-### 📊 Data Science & Machine Learning
-   - **[Search By Ingredients 2.0](https://github.com/argmaxml/search_by_ingredients)**  
-      A multi-diet, portion-aware recipe search & transformation system. Evolved from Argmax’s challenge into a full product: real-time analysis, scoring, and conversion for Keto, Vegan, or both, with dynamic substitutions and an interactive UI.  
-      **Highlights**:  
-      - Portion-aware classification with practical compliance thresholds (e.g., `#keto:0.8`).  
-      - Multi-diet logic, real-time scoring, and visual diet badges.  
-      - One-click recipe conversion via dynamic substitution engine.  
-      - Ingredient-level analysis UI and saved variations with unique ID management.  
-      - API & CLI for search, batch conversion, and export.  
-      **Keywords**: Diet Classification, Recipe Transformation, Portion-Aware Analysis, Multi-Diet Logic, Data Science, Machine Learning, API/CLI, UI.
 
 
 ---
