@@ -14,6 +14,8 @@ I enjoy working on projects that blend **cutting-edge research** with **practica
 - **Full-Stack Development**: Building scalable, interactive, and user-friendly web applications.
 
 ---
+
+
 ## 📂 Featured Projects:
 
 ### 🔬 Biological Computation
@@ -69,6 +71,19 @@ I enjoy working on projects that blend **cutting-edge research** with **practica
       - Collaboration-focused project with UX/UI and development integration.  
       - Frontend development optimized for user experience and responsiveness.  
       **Keywords**: Portfolio Website, Frontend Development, Collaboration.
+
+### 📊 Data Science & Machine Learning
+   - **[Search By Ingredients 2.0](https://github.com/argmaxml/search_by_ingredients)**  
+      A multi-diet, portion-aware recipe search & transformation system. Evolved from Argmax’s challenge into a full product: real-time analysis, scoring, and conversion for Keto, Vegan, or both, with dynamic substitutions and an interactive UI.  
+      **Highlights**:  
+      - Portion-aware classification with practical compliance thresholds (e.g., `#keto:0.8`).  
+      - Multi-diet logic, real-time scoring, and visual diet badges.  
+      - One-click recipe conversion via dynamic substitution engine.  
+      - Ingredient-level analysis UI and saved variations with unique ID management.  
+      - API & CLI for search, batch conversion, and export.  
+      **Keywords**: Diet Classification, Recipe Transformation, Portion-Aware Analysis, Multi-Diet Logic, Data Science, Machine Learning, API/CLI, UI.
+
+
 ---
 
 ## 📚 About Me:
