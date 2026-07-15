@@ -1,21 +1,39 @@
 # Hi there 👋, I'm Guy Vitelson
 
-I'm a Full-Stack Developer and independent researcher with a strong academic foundation in Computer Science, passionate about exploring AI, computational biology, and theoretical computer science. My journey into computer science stems from a lifelong curiosity about programming, which I transitioned into full-time after a successful career in post-production.
+I build complete systems end to end — from real-time firmware on microcontrollers to computer vision and machine learning on edge devices. I work at the intersection of **robotics, embedded systems, and AI**, and I also teach these skills. I'm an M.Sc. Computer Science student with a strong academic foundation and a lifelong curiosity about programming, which I moved into full-time after a career in post-production.
 
-I enjoy working on projects that blend **cutting-edge research** with **practical software engineering**, and I'm eager to collaborate, learn, and contribute to impactful interdisciplinary work.
+I enjoy projects that blend **cutting-edge research** with **practical software engineering**, and I'm eager to collaborate, learn, and contribute to impactful interdisciplinary work.
 
 ---
 
 # 🌟 Areas of Interest
 
-- **Artificial Intelligence**: Machine learning, neural networks, and search algorithms
-- **Computational Biology**: Genetic algorithms, cellular automata, and their real-world applications in biological systems
-- **Theoretical Computer Science**: Algorithm design, automata theory, and emergent computational paradigms
-- **Full-Stack Development**: Building scalable, interactive, and user-friendly web applications
+- **Robotics & Embedded Systems**: real-time firmware, sensors and actuators, control, edge AI
+- **Artificial Intelligence & Computer Vision**: machine learning, neural networks, on-device inference
+- **Computational Biology**: genetic algorithms, cellular automata, and bio-inspired computation
+- **Systems & Theoretical CS**: low-level/systems programming, algorithm design, emergent computation
+- **Full-Stack Development**: building scalable, interactive, and user-friendly web applications
 
 ---
 
 # 📂 Featured Projects
+
+## 🤖 Robotics & Embedded
+
+### Dual-Velocity Learning — Autonomous Foraging Robot *(private repo, available on request)*
+
+**Tools:** Python · PyTorch · OpenCV · C/C++ · NVIDIA Jetson Orin Nano · ESP32 · Nengo
+
+An autonomous foraging robot demonstrating **alignment without forgetting**: a slow evolved genome, regulated by a fast epigenetic layer and an instant hormonal reflex, absorbs a late "never touch blue" safety rule without catastrophic forgetting.
+
+**Highlights:**
+- Built solo, full stack: real-time **C/C++ firmware on an ESP32** (motor/servo control, sensors, safety reflex, custom UART protocol) talking to **vision, a genetic algorithm, and the epigenetic layer on a Jetson**
+- Dual-camera vision (OpenCV), NFC reward at the collection bin, 4-DoF servo arm, and live browser dashboards (telemetry + a genetic-engineering lab)
+- Also implemented as a **spiking neural network** (NEF/Nengo, online neuromodulated learning) and as a **full simulation** of the robot and its behaviour
+
+**Keywords:** Robotics, Embedded Systems, Real-Time Firmware, Computer Vision, Online Learning, Simulation, Neuromorphic
+
+---
 
 ## 📊 Data Science & Machine Learning
 
@@ -124,7 +142,7 @@ This project demonstrates a simplified DNA Fountain encoding and decoding system
 
 ---
 
-## 🖥️ Low-Level Programming
+## 🖥️ Low-Level & Systems Programming
 
 ### [Assembler](https://github.com/v1t3ls0n/assembler)
 
@@ -133,9 +151,9 @@ A custom assembler written in C as part of the Systems Programming Lab course at
 **Highlights:**
 - Implemented instruction parsing and error handling for assembly programs
 - Designed a robust system for macro expansion and machine code generation
-- Demonstrated low-level programming expertise and a deep understanding of systems programming
+- Demonstrated low-level programming expertise and a deep understanding of systems programming and computer architecture
 
-**Keywords:** Assembler, C Programming, Systems Programming, Low-Level Programming
+**Keywords:** Assembler, C Programming, Systems Programming, Low-Level Programming, Computer Architecture
 
 ---
 
@@ -179,8 +197,10 @@ A responsive portfolio website built for May Vitelson, showcasing her UX/UI desi
 
 # 📚 About Me
 
-- 🌱 Currently exploring the intersection of **theoretical computer science** and **AI-driven solutions**
-- 💻 Passionate about **bridging theory and practical application** through innovative projects
+- 🤖 Building robots and systems that blend **embedded engineering, AI, and control**
+- 🌱 Exploring the intersection of **robotics, applied AI, and emergent computation**
+- 💻 Passionate about **bridging theory and practical application** through hands-on projects
+- 🎓 Teaching robotics and embedded systems, and studying toward an M.Sc. in Computer Science
 - 🎯 Open to collaborations, research, and professional opportunities
 
 ---
@@ -190,4 +210,4 @@ A responsive portfolio website built for May Vitelson, showcasing her UX/UI desi
 - [LinkedIn](https://www.linkedin.com/in/guyvitelson/)
 - [GitHub](https://github.com/v1t3ls0n)
 
-Thank you for visiting my profile! I'm eager to connect, learn, and contribute to impactful projects in computer science and beyond. 🚀
+Thank you for visiting my profile! I'm eager to connect, learn, and contribute to impactful projects in robotics, AI, and beyond. 🚀
