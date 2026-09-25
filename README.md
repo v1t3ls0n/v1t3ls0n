@@ -21,19 +21,20 @@ I enjoy projects that blend **cutting-edge research** with **practical software 
 
 ## 🤖 Robotics & Embedded
 
-### [SO-101 Control — a physical-AI lab on real robot arms](https://github.com/v1t3ls0n/so101-physical-ai-lab) *(public write-up; full repository on request)*
+### [SO-101 Control — a robot you talk to](https://github.com/v1t3ls0n/so101-physical-ai-lab) *(public write-up; full repository on request)*
 
-**Tools:** Python · PyTorch · LeRobot · ROS 2 · FastAPI · NVIDIA Isaac Sim / Isaac Lab · MuJoCo · NVIDIA Jetson Orin Nano · Tailscale · Langfuse
+**Tools:** Python · FastAPI · PyTorch · LeRobot · ROS 2 · Claude (operator model) · MCP · Whisper · MuJoCo · NVIDIA Isaac Sim / Isaac Lab · Langfuse · NVIDIA Jetson Orin Nano
 
-An independent end-to-end robot-learning stack on two SO-101 arms and a Jetson Orin Nano: the full loop from teleoperated demonstrations to vision-language-action policies running on the real arm, and the engineering around it that makes the loop repeatable and measured.
+A platform for operating, teaching and researching robot arms, built on two SO-101 arms and a Jetson Orin Nano. You talk to the robot; it talks back; Claude does the work through a driver that clamps every command; you watch and correct. The layers (perception, conversation, reasoning, skills, safety, memory, observability) are the layers of any embodied agent; the SO-101 is the first body and a Universal Robots arm the second.
 
 **Highlights:**
-- **Data → policy → arm:** leader/follower teleop with two cameras, LeRobot datasets with per-take review; ACT and SmolVLA fine-tuned on a remote RTX GPU over Tailscale; held-out action error per checkpoint; closed-loop rollouts on the arm with scorecards and recorded video
-- **Runtime:** a ROS 2 driver with hard joint and torque limits, lease / watchdog / E-STOP semantics, a browser control app, an LLM agent (Claude) driving skills through MCP, speech in and out, LLM observability with Langfuse
-- **Sim-to-real:** NVIDIA's Sim-to-Real SO-101 workshop adapted in Isaac Lab to this rig's task (a ping-pong ball into a red box); a MuJoCo digital twin for fast checks
-- **Measured:** doubling the demonstrations cut ACT's held-out error from 13.6° to 12.2°; the first real checkpoints exposed and fixed real bugs in the inference path. The policies reach the ball and hover; closing the grasp is the current iteration
+- **Agentic operation:** Claude as the operator model with the driver's primitives as tools, supervised approvals in chat, by voice or by push notification; a small conversation model that answers at once; speech in (Whisper, Hebrew and English) and out; the same driver over MCP for Claude Desktop / Claude Code
+- **Skills and learning:** a built-in skills library, skills taught by hand in a minute, skills the model writes and rehearses on the twin, ACT / SmolVLA policies from your demonstrations as skills, a recording quality gate, a shadow run, corrections that become the next fine-tune, and neuromorphic layers that learn while the arm works
+- **Body and senses:** a live 3D twin from the CAD, a MuJoCo physics twin that rehearses, checks grasps and ranks skills, calibration that cannot save garbage, cameras by role including a depth camera that judges the task from geometry
+- **Safety and operation:** limits in the driver and not in any prompt, one operator at a time, an E-STOP under everything, a viewer account, a journal and pre-flight, Langfuse traces, Prometheus metrics, Hebrew RTL, Docker, tagged releases; ~97k lines of Python, 711 API routes, 2,400+ tests
+- **The research thread:** a full imitation-learning loop on real hardware, teleop → ACT / SmolVLA on a remote GPU → held-out scoring per checkpoint → closed-loop rollouts on the arm, and the same task in Isaac Lab for sim-to-real
 
-**Keywords:** Physical AI, Vision-Language-Action, Imitation Learning, LeRobot, ROS 2, Isaac Sim, Sim-to-Real, Edge Inference
+**Keywords:** Agentic Robotics, Physical AI, Vision-Language-Action, Imitation Learning, LeRobot, ROS 2, MCP, Isaac Sim, Sim-to-Real, Safety-First Control
 
 ---
 
@@ -215,7 +216,7 @@ A responsive portfolio website built for May Vitelson, showcasing her UX/UI desi
 # 📚 About Me
 
 - 🤖 Building robots and systems that blend **embedded engineering, AI, and control**
-- 🦾 Running a hands-on **physical-AI lab**: VLA policies trained from demonstrations and evaluated on real SO-101 arms
+- 🦾 Building **SO-101 Control**: a platform for agentic robotics on real arms, and a robot-learning loop on top of it
 - 🌱 Exploring the intersection of **robotics, applied AI, and emergent computation**
 - 💻 Passionate about **bridging theory and practical application** through hands-on projects
 - 🎓 Teaching robotics and embedded systems, and studying toward an M.Sc. in Computer Science
