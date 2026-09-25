@@ -1,6 +1,6 @@
 # Hi there 👋, I'm Guy Vitelson
 
-I build complete systems end to end — from real-time firmware on microcontrollers to computer vision and machine learning on edge devices. I work at the intersection of **robotics, embedded systems, and AI**, and I also teach these skills. I'm an M.Sc. Computer Science student with a strong academic foundation and a lifelong curiosity about programming, which I moved into full-time after a career in post-production.
+I build complete systems end to end — from real-time firmware on microcontrollers to computer vision and machine learning on edge devices. I work at the intersection of **robotics, embedded systems, and AI**, and I also teach these skills. My current work is **physical AI on a real robot arm**: from teleoperated demonstrations to vision-language-action policies (ACT, SmolVLA on LeRobot) trained on a remote GPU and evaluated on the arm, plus sim-to-real in Isaac Sim / Isaac Lab. I'm an M.Sc. Computer Science student with a strong academic foundation and a lifelong curiosity about programming, which I moved into full-time after a career in post-production.
 
 I enjoy projects that blend **cutting-edge research** with **practical software engineering**, and I'm eager to collaborate, learn, and contribute to impactful interdisciplinary work.
 
@@ -8,6 +8,7 @@ I enjoy projects that blend **cutting-edge research** with **practical software 
 
 # 🌟 Areas of Interest
 
+- **Physical AI & Robot Learning**: vision-language-action models, imitation learning, sim-to-real, closed-loop evaluation on real hardware
 - **Robotics & Embedded Systems**: real-time firmware, sensors and actuators, control, edge AI
 - **Artificial Intelligence & Computer Vision**: machine learning, neural networks, on-device inference
 - **Computational Biology**: genetic algorithms, cellular automata, and bio-inspired computation
@@ -19,6 +20,22 @@ I enjoy projects that blend **cutting-edge research** with **practical software 
 # 📂 Featured Projects
 
 ## 🤖 Robotics & Embedded
+
+### [SO-101 Control — a physical-AI lab on real robot arms](https://github.com/v1t3ls0n/so101-physical-ai-lab) *(public write-up; full repository on request)*
+
+**Tools:** Python · PyTorch · LeRobot · ROS 2 · FastAPI · NVIDIA Isaac Sim / Isaac Lab · MuJoCo · NVIDIA Jetson Orin Nano · Tailscale · Langfuse
+
+An independent end-to-end robot-learning stack on two SO-101 arms and a Jetson Orin Nano: the full loop from teleoperated demonstrations to vision-language-action policies running on the real arm, and the engineering around it that makes the loop repeatable and measured.
+
+**Highlights:**
+- **Data → policy → arm:** leader/follower teleop with two cameras, LeRobot datasets with per-take review; ACT and SmolVLA fine-tuned on a remote RTX GPU over Tailscale; held-out action error per checkpoint; closed-loop rollouts on the arm with scorecards and recorded video
+- **Runtime:** a ROS 2 driver with hard joint and torque limits, lease / watchdog / E-STOP semantics, a browser control app, an LLM agent (Claude) driving skills through MCP, speech in and out, LLM observability with Langfuse
+- **Sim-to-real:** NVIDIA's Sim-to-Real SO-101 workshop adapted in Isaac Lab to this rig's task (a ping-pong ball into a red box); a MuJoCo digital twin for fast checks
+- **Measured:** doubling the demonstrations cut ACT's held-out error from 13.6° to 12.2°; the first real checkpoints exposed and fixed real bugs in the inference path. The policies reach the ball and hover; closing the grasp is the current iteration
+
+**Keywords:** Physical AI, Vision-Language-Action, Imitation Learning, LeRobot, ROS 2, Isaac Sim, Sim-to-Real, Edge Inference
+
+---
 
 ### Dual-Velocity Learning — Autonomous Foraging Robot *(private repo, available on request)*
 
@@ -198,6 +215,7 @@ A responsive portfolio website built for May Vitelson, showcasing her UX/UI desi
 # 📚 About Me
 
 - 🤖 Building robots and systems that blend **embedded engineering, AI, and control**
+- 🦾 Running a hands-on **physical-AI lab**: VLA policies trained from demonstrations and evaluated on real SO-101 arms
 - 🌱 Exploring the intersection of **robotics, applied AI, and emergent computation**
 - 💻 Passionate about **bridging theory and practical application** through hands-on projects
 - 🎓 Teaching robotics and embedded systems, and studying toward an M.Sc. in Computer Science
