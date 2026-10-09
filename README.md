@@ -21,20 +21,22 @@ I enjoy projects that blend **cutting-edge research** with **practical software 
 
 ## 🤖 Robotics & Embedded
 
-### [SO-101 Control — a robot you talk to](https://github.com/v1t3ls0n/so101-physical-ai-lab) *(public write-up; full repository on request)*
+### [Daat — a robot you talk to](https://github.com/v1t3ls0n/daat-robot) *(public page; full repository on request)*
 
-**Tools:** Python · FastAPI · PyTorch · LeRobot · ROS 2 · Claude (operator model) · MCP · Whisper · MuJoCo · NVIDIA Isaac Sim / Isaac Lab · Langfuse · NVIDIA Jetson Orin Nano
+**Tools:** Python · PyTorch · LeRobot · ROS 2 · NVIDIA Isaac Sim / Isaac Lab · NVIDIA Jetson
 
-A platform for operating, teaching and researching robot arms, built on two SO-101 arms and a Jetson Orin Nano. You talk to the robot; it talks back; Claude does the work through a driver that clamps every command; you watch and correct. The layers (perception, conversation, reasoning, skills, safety, memory, observability) are the layers of any embodied agent; the SO-101 is the first body and a Universal Robots arm the second.
+Daat (דעת, Hebrew for *knowledge*) is a physical-AI platform for robot arms, built on a desktop arm and an edge computer. It takes a robot from "a machine you operate" to "a helper you ask": you say what you want in plain words, in Hebrew or English; it looks at the table, works out what to do, asks for your go-ahead, and does it, saying aloud what it is doing.
 
 **Highlights:**
-- **Agentic operation:** Claude as the operator model with the driver's primitives as tools, supervised approvals in chat, by voice or by push notification; a small conversation model that answers at once; speech in (Whisper, Hebrew and English) and out; the same driver over MCP for Claude Desktop / Claude Code
-- **Skills and learning:** a built-in skills library, skills taught by hand in a minute, skills the model writes and rehearses on the twin, ACT / SmolVLA policies from your demonstrations as skills, a recording quality gate, a shadow run, corrections that become the next fine-tune, and neuromorphic layers that learn while the arm works
-- **Body and senses:** a live 3D twin from the CAD, a MuJoCo physics twin that rehearses, checks grasps and ranks skills, calibration that cannot save garbage, cameras by role including a depth camera that judges the task from geometry
-- **Safety and operation:** limits in the driver and not in any prompt, one operator at a time, an E-STOP under everything, a viewer account, a journal and pre-flight, Langfuse traces, Prometheus metrics, Hebrew RTL, Docker, tagged releases; ~97k lines of Python, 711 API routes, 2,400+ tests
-- **The research thread:** a full imitation-learning loop on real hardware, teleop → ACT / SmolVLA on a remote GPU → held-out scoring per checkpoint → closed-loop rollouts on the arm, and the same task in Isaac Lab for sim-to-real
+- **Understands spoken requests**, from single actions ("pick up the ball") to whole tasks ("sort them by colour", "clear the table")
+- **Knows what is on the table** and keeps track of it, even while its own arm is in the way
+- **Plans and acts on its own**, and adjusts when something goes wrong: a missed grasp, a ball that rolls away or is moved by someone
+- **Runs on the device:** understanding, planning and acting need no internet connection
+- **Learns from you:** show it a skill by guiding a second arm; it learns from the demonstrations and improves from your corrections
+- **Safe by design:** its limits are enforced by the robot itself, every motion can wait for approval, and an emergency stop always wins
+- **On the real robot:** learned skills picking up a ball in 24 of 25 placements across two sessions with nobody placing the ball between attempts; it records and grades its own training demonstrations, so it collects data unattended
 
-**Keywords:** Agentic Robotics, Physical AI, Vision-Language-Action, Imitation Learning, LeRobot, ROS 2, MCP, Isaac Sim, Sim-to-Real, Safety-First Control
+**Keywords:** Physical AI, Embodied AI, Robot Learning, Imitation Learning, Edge AI, Sim-to-Real, Safety-First Control
 
 ---
 
@@ -216,7 +218,7 @@ A responsive portfolio website built for May Vitelson, showcasing her UX/UI desi
 # 📚 About Me
 
 - 🤖 Building robots and systems that blend **embedded engineering, AI, and control**
-- 🦾 Building **SO-101 Control**: a platform for agentic robotics on real arms, and a robot-learning loop on top of it
+- 🦾 Building **Daat**: a robot you talk to, on a real arm and an edge computer
 - 🌱 Exploring the intersection of **robotics, applied AI, and emergent computation**
 - 💻 Passionate about **bridging theory and practical application** through hands-on projects
 - 🎓 Teaching robotics and embedded systems, and studying toward an M.Sc. in Computer Science
